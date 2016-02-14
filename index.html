@@ -5,33 +5,35 @@
   <title>Bob Clock's Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+ </head>
   <body>
 
     <div class="main-nav">
         <ul class="nav">
-          <li class="name">Jane Smith</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Experience</a></li>
+          <li class="name">Rob Clark</li>
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
         </ul>
     </div>
 
     <header>
-      <img src="images/rob.jpg" alt="Drawing of Jane Smith" class="profile-image">
-      <h1 class="tag name">Hello, I’m Jane.</h1>
-      <p class="tag location">My home is Portland, Oregon.</p>
+      <img src="images/rob.jpg" alt="Picture of Rob Clark" class="profile-image">
+      <h1 class="tag name">Hello, I’m Rob</h1>
+      <p class="tag location">I live in London</p>
     </header>
 
     <main class="flex">
       <div class="card">
         <h2>Background</h2>
-        <p>I’m an aspiring web designer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
-        <p>I’ve been a professional cook and gardener and am a life-long learner who's always interested in expanding my skills.</p>
+        <p>I’m an aspiring developer and I love everything about tech and design. To date, I've been working in public realtions on campaigns for healthcare clients. I love travelling and photography and I hope to use these influences to create great websites!</p>
+        <p>I’m a life-long learner who's always interested in expanding my skills and have recently started my journey of learning to code websites and software.</p>
       </div> 
 
       <div class="card">
-        <h2>Goals</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
+        <h2>Ambitions</h2>
+        <p>I want to be in the position to build websites and build software, independently. To do this I would like to develop the following skills and abilities:</p>
         <ul class="skills">
           <li>HTML</li>
           <li>CSS</li>
@@ -39,17 +41,44 @@
           <li>Ruby</li>
           <li>Rails</li>
         </ul>
-        <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
+        <p>When it boils down to it, ultimately I'd love to be creating interesting websites with great content and design.</p>
       </div> 
 
     </main>
+
+     <div class="contact">
+        <div class="card" id="inTouch">
+          <h2>Get in touch!</h2>
+          <p>If you have an idea you would like to talk about, or even just to understand a little bit more about me and my journey to becoming a developer get in touch on the form opposite, or send me a tweet <a href="https://twitter.com/MrBobClock">@MrBobClock</a></p>
+        </div>
+
+        <div class="card" id="contactForm">
+          	<label>
+          		First name:
+            	<input type="text" name="firstname" placeholder="John Doe">
+            </label>
+            <br>
+            <label>
+            	Email:
+            	<input type="email" name="email" placeholder="example@gmail.com">
+            </label>
+            <br>
+            <label>
+            	Message:
+            	<input class="msg" type="text" name="message" value="">
+            </label>
+            <br>
+            <input id="sub" type="submit" value="Submit">
+        </div>
+    </div>
+
     <footer>
       <ul>
-        <li><a href="#" class="social twitter">Twitter</a></li>
-        <li><a href="#" class="social linkedin">LinkedIn</a></li>
-        <li><a href="#" class="social github">Github</a></li>
+        <li><a href="https://twitter.com/MrBobClock" class="social twitter">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/clarkrobert?trk=hp-identity-name" class="social linkedin">LinkedIn</a></li>
+        <li><a href="https://github.com/bobclock" class="social github">Github</a></li>
       </ul>
-      <p class="copyright">Copyright 2015, Jane Smith</p>
+      <p class="copyright">&copy;2015, Bob Clock</p>
     </footer>
   </body>
   </html>
