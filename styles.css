@@ -1,8 +1,8 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
@@ -66,6 +66,7 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
@@ -87,7 +88,7 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 5px;
   padding: 10px 5px;
-  max-width: 90%;   
+  max-width: 90%;
   background: #fff;
 }
 .gallery p {
@@ -98,7 +99,7 @@ header .profile-image:hover {
   list-style: none;
   padding: 10px;
   margin: 10px 0;
-} 
+}
 
 .gallery img {
   width: 80%;
@@ -123,7 +124,7 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
 
 .location {
   background-color: rgba(0, 0, 0, .4);
@@ -228,10 +229,10 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
 .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -241,11 +242,11 @@ a.social:hover {
 
 .contact {
   display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: flex; 
+  display: flex;
   max-width: 1200px;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  margin: 5px auto;  
+  margin: 5px auto;
 }
 
 #contactForm {
@@ -325,3 +326,4 @@ input {
     margin-left: 20px;
     padding: 3%;
   }
+}
