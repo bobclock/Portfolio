@@ -113,8 +113,7 @@ header .profile-image:hover {
 }
 
 #photography img {
-  height: 85%;
-  width: 85%;
+  width: 80%;
 }
 
 .tag {
@@ -285,45 +284,45 @@ input {
 }
 
 
-  header {
-    min-height: 520px;
-  }
+header {
+  min-height: 520px;
+}
 
-  .nav {
-    max-width: 1200px;
-    padding: 0 30px;
-  }
+.nav {
+  max-width: 1200px;
+  padding: 0 30px;
+}
 
-  main {
-    padding-top: 20px;
-  }
+main {
+  padding-top: 20px;
+}
 
-  main p {
-    line-height: 1.6em;
-  }
+main p {
+  line-height: 1.6em;
+}
 
-  footer {
-    font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
-  }
+footer {
+  font-size: 1.3em;
+  max-width: 1200px;
+  margin: 40px auto;
+}
 
-  .website {
-    float: left;
-    max-width: 40%;
-    margin: 10px;
-  }
+.website {
+  float: left;
+  max-width: 40%;
+  margin: 10px;
+}
 
-  #photography {
-    margin: 0 25px;
-  }
+#photography {
+  margin: 0 25px;
+}
 
-  #photography img {
-    max-height: 45.5%;
-    max-width: 45.5%;
-    display: inline;
-    float: left;
-    margin-left: 20px;
-    padding: 3%;
-  }
+#photography img {
+  max-height: 45.5%;
+  max-width: 45.5%;
+  display: inline;
+  float: left;
+  margin-left: 20px;
+  padding: 3%;
+}
 }
